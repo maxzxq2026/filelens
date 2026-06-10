@@ -1,0 +1,689 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens_FileLens.bundle/classification_rules.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Resources/classification_rules.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens_FileLens.bundle/classification_rules.json"
+        }
+      ]
+    },
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens_FileLens.bundle/identification_rules.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Resources/identification_rules.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens_FileLens.bundle/identification_rules.json"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FileLens-arm64-apple-macosx14.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/sources",
+      "importPath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/FileLensApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/StatusBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/ClassificationRule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/IdentificationRule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/OrganizeAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/SafetyLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileOrganizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileScanService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/SafetyClassifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/StorageService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/ContentViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/DesignSystem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileItemRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileListItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FilterBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/MainView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/OrganizePreviewView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/SearchBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/StatsCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<FileLens-arm64-apple-macosx14.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "FileLens",
+      "moduleOutputPath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/Modules/FileLens.swiftmodule",
+      "objects" : [
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileLensApp.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatusBarController.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ClassificationRule.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItem.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileType.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/IdentificationRule.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizeAction.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyLevel.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileIdentifier.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileOrganizer.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileScanService.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyClassifier.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StorageService.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ContentViewModel.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DesignSystem.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileDetailView.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItemRow.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileListItem.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FilterBar.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/MainView.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizePreviewView.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SearchBar.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatsCard.swift.o",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "FileLens_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "filelens"
+      ],
+      "outputFileMapPath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileLensApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatusBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ClassificationRule.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/IdentificationRule.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizeAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileOrganizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileScanService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyClassifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StorageService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ContentViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DesignSystem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileDetailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItemRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileListItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FilterBar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/MainView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizePreviewView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SearchBar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatsCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/Modules/FileLens.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/FileLensApp.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/StatusBarController.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/ClassificationRule.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileItem.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileType.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/IdentificationRule.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/OrganizeAction.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/SafetyLevel.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileIdentifier.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileOrganizer.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileScanService.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/SafetyClassifier.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/StorageService.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/ContentViewModel.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/DesignSystem.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileDetailView.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileItemRow.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileListItem.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FilterBar.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/MainView.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/OrganizePreviewView.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/SearchBar.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/StatsCard.swift",
+        "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FileLens" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "FileLens",
+      "-package-name",
+      "filelens",
+      "-incremental",
+      "-c",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/FileLensApp.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/StatusBarController.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/ClassificationRule.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileItem.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileType.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/IdentificationRule.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/OrganizeAction.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/SafetyLevel.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileIdentifier.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileOrganizer.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileScanService.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/SafetyClassifier.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/StorageService.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/ContentViewModel.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/DesignSystem.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileDetailView.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileItemRow.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileListItem.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FilterBar.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/MainView.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/OrganizePreviewView.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/SearchBar.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/StatsCard.swift",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "FileLens_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "filelens",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FileLens" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens-entitlement.plist"
+    },
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/FileLensApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/App/StatusBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/ClassificationRule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/FileType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/IdentificationRule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/OrganizeAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Models/SafetyLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileOrganizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/FileScanService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/SafetyClassifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Services/StorageService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/ContentViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/DesignSystem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileItemRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FileListItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/FilterBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/MainView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/OrganizePreviewView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/SearchBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/Sources/FileLens/Views/StatsCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/sources"
+    },
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ClassificationRule.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/ContentViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/DesignSystem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileDetailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileItemRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileLensApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileListItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileOrganizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileScanService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FileType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/FilterBar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/IdentificationRule.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/MainView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizeAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/OrganizePreviewView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyClassifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SafetyLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/SearchBar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatsCard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StatusBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/StorageService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/FileLens.product/Objects.LinkFileList"
+    },
+    "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/zhuanzmimi0000/Desktop/FileLens/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
