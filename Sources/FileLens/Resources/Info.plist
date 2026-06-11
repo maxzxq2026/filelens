@@ -20,5 +20,9 @@
     <string>FileLens 需要访问桌面文件夹以扫描和分析文件安全性</string>
     <key>NSDocumentsFolderUsageDescription</key>
     <string>FileLens 需要访问文档文件夹以扫描和分析文件安全性</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
 </dict>
 </plist>

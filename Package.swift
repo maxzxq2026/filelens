@@ -12,7 +12,8 @@ let package = Package(
             path: "Sources/FileLens",
             resources: [
                 .copy("Resources/classification_rules.json"),
-                .copy("Resources/identification_rules.json")
+                .copy("Resources/identification_rules.json"),
+                .copy("Resources/Assets.xcassets")
             ],
             linkerSettings: [
                 .linkedFramework("Cocoa"),
